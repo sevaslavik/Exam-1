@@ -1,0 +1,73 @@
+.hero{
+    text-align: center;
+    
+    background-image: url('#{$way}hero.jpg');
+
+    &__title{
+        padding-top: 275px;
+        text-transform: uppercase;
+        color: $white;
+    }
+
+    &__h3{
+        margin-bottom: 50px;
+        font-weight: 300;
+        color: $white; 
+    }
+
+    &__form{
+        width: 650px;
+        margin: 0 auto;
+        padding: 2px;
+        margin-bottom: 120px;
+        background-color: $white;
+    }
+
+    &__search{
+        display: inline-block;
+        width: calc(93.6% - 80px);
+        font-family: $josefin;
+        font-size: 14px;
+        text-align: center;
+        letter-spacing: 4px;
+        border: none;
+    }
+
+    &__btn{
+        
+        margin-right: 0;
+        padding: 12px 20px;
+        font-family: $aleo;
+        vertical-align: middle;
+        color: $white;
+        background-color: $blue;
+        border: none;
+
+        &:hover{
+            color: $blue;
+            background-color: $white;
+        }
+
+    }
+
+    &__icon{
+        font-size: 20px;
+    }
+
+   
+
+    &__link{
+        text-decoration: none;
+        color: $white;
+    }
+
+    &__scrol{
+        display: block;
+
+
+        &:last-child{
+            padding-bottom: 130px;
+        }
+    }
+
+}

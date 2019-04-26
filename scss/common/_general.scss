@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $josefin;
+
+}
+
+.grid{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 12px;
+}
+
+h2{
+    font-weight: 300;
+}
+
+h3{
+    font-size: 22px;
+    
+    letter-spacing: 8px;
+}
+
+h4{
+    font-weight: 300;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: $aleo;
+    color: $white;
+}
+
+p{
+    font-size: 16px;
+    //padding-top: 35px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}

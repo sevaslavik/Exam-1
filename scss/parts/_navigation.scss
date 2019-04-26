@@ -1,0 +1,24 @@
+.navigation{
+    
+    &__list{
+        display: flex;
+    }
+
+    &__item{
+        &:not(:last-child){
+            margin-right: 40px;;
+        }
+    }
+
+    &__link{
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: $aleo;
+        color: $white;
+
+ 
+
+   
+    }
+
+}

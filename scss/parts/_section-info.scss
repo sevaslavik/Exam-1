@@ -1,0 +1,53 @@
+.section-info{
+    color: $white;
+    background-image:  url('#{$way}section-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &--sea{
+        background-image:  url('#{$way}section-3.jpg');
+    }
+
+    &__row{
+        padding-top: 230px;
+        padding-bottom: 100px;
+    }
+
+    &__back{
+        padding-right: 30px;
+        padding-left: 30px;
+        background-color: rgba(51 , 51 ,51, 0.9);
+        //opacity: 0.8;
+    }
+
+    &__country{
+        padding-top: 45px;
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+    &__description{
+        text-transform: uppercase;
+    }
+
+    &__paragraf{
+        padding-top: 35px;
+        padding-bottom: 45px;
+    }
+
+    &__link{
+        display: inline-block;
+        width: 225px;
+        margin-bottom: 50px;
+        padding: 20px 0;
+        text-align: center;
+        text-transform: uppercase;
+        
+        
+        background: #496bfe; /* Old browsers */
+        background: -moz-linear-gradient(45deg, #496bfe 0%, #5474fd 30%, #2989d8 50%, #207cca 51%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(45deg, #496bfe 0%,#5474fd 30%,#2989d8 50%,#207cca 51%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(45deg, #496bfe 0%,#5474fd 30%,#2989d8 50%,#207cca 51%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#496bfe', endColorstr='#207cca',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    }
+}

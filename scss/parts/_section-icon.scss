@@ -1,0 +1,44 @@
+.section-icons{
+    position: relative;
+    background-color: $dark;
+    color: $white;
+
+    &__conteiner{
+        display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    justify-content: space-around;
+	    align-items: center;
+	    align-content: stretch;
+    }
+
+    &__box{
+        padding-top: 100px;
+        padding-bottom: 120px;
+        font-family: $aleo;
+        font-size: 36px;
+    }
+
+    &__words{
+        display: block;
+        text-align: center;
+
+        &--size{
+            font-size: 50px;
+        }
+
+        &--blue{
+            color: $blue;
+        }
+
+        &--red{
+            color: $red;
+        }
+
+        &--blue-light{
+            color: $light-blue;
+        }
+
+    }
+
+}

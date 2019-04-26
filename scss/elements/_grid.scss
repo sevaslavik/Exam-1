@@ -1,0 +1,16 @@
+.row{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+
+.col-1-2{
+	width:48%;
+	
+	
+
+}
+
